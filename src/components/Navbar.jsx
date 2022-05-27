@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="bar"></div>
         </div>
       </div>
-      {showSidebar && <Sidebar links={links} /> }
+      {showSidebar && <Sidebar links={links} show={(SORH)=>{setShowSidebar(SORH)}} /> }
       
     </>
   )
