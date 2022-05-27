@@ -5,7 +5,7 @@ import {faFacebook,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-ico
 const ChiefCard = ({chief}) => {
   return (
     <div className='chief-card'>
-        <img src={chief.img} alt="my" />
+        <img src={process.env.PUBLIC_URL+chief.img} alt="my" />
       <div className="chief-card-info">
           <h3 className="chief-card-name">{chief.name}</h3>
           <p className="chief-recipe-count">Recipes: <b>{chief.recipesCount}</b></p>

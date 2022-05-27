@@ -14,7 +14,7 @@ const ImproveSkill = () => {
     return (
         <div className='section improve-skills'>
             <div className="col img">
-                <img src="/gallery/img_10.jpg" alt="my" />
+                <img src={process.env.PUBLIC_URL+"/gallery/img_10.jpg"}alt="my" />
             </div>
             <div className="col typography">
                 <h1 className="title">Improve your Skills</h1>
